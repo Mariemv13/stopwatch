@@ -4,8 +4,8 @@ var sp, btn_start, btn_stop, t, ms=0, s=0, mn=0, h=0;
 // Fonction pour initialiser les variables quand la page se charge
 window.onload = function(){
     sp = document.getElementsByTagName('span');
-    btn_start = document.getElementsById('start');
-    btn_stop = document.getElementsById('stop');
+    btn_start = document.getElementById('start');
+    btn_stop = document.getElementById('stop');
 
     ms = 0, s = 0, mn = 0, h = 0;
 }
